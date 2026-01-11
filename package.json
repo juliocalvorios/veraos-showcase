@@ -1,0 +1,35 @@
+{
+  "name": "veraos-showcase",
+  "version": "1.0.0",
+  "description": "Technical preview showcasing key features from veraOS - a full-stack productivity platform for students",
+  "private": false,
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "serve": "python3 -m http.server 8080"
+  },
+  "keywords": [
+    "ai",
+    "semantic-highlighting",
+    "streaming",
+    "real-time-processing",
+    "react",
+    "education",
+    "productivity"
+  ],
+  "author": {
+    "name": "Julio Calvo",
+    "url": "https://juliocalvorios.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/juliocalvorios/veraos-showcase"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "note": "This is a curated technical preview showcasing production-quality code. The full veraOS codebase is a private portfolio project. Live demo: https://veraos.ai"
+}
